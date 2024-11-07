@@ -1,0 +1,8 @@
+# Use uma imagem base com Python
+FROM python:3.9-slim
+
+# Define o diretório de trabalho no contêiner
+WORKDIR /work
+
+# Instala as dependências necessárias
+RUN pip install pandas matplotlib
