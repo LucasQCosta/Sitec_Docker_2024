@@ -61,7 +61,6 @@ certificatesResolvers:
 O `docker-compose.yml` cria o contêiner do Traefik e configura os serviços que ele gerenciará. Um exemplo de configuração básica:
 
 ```yaml
-version: '3'
 
 services:
   traefik:

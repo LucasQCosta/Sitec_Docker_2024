@@ -1,0 +1,8 @@
+# Use uma imagem base do Nginx
+FROM nginx:alpine
+
+# Copia o arquivo HTML para o diretório padrão do Nginx
+COPY index.html /usr/share/nginx/html/index.html
+
+# Expõe a porta padrão do Nginx
+EXPOSE 80

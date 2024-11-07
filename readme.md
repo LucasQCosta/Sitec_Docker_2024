@@ -7,8 +7,8 @@ Use este README para acessar o conteúdo, revisar conceitos apresentados e aprof
 
 ## Conteúdo
 
-1. [Slides do Curso](./slides.pdf) - Apresentação utilizada durante o minicurso.
-2. [Exemplos de Código](./exemplos/) - Exemplos práticos usados durante a aula para reforçar os conceitos.
+1. [Slides do Curso](./Docker-Sitec-2024.pdf) - Apresentação utilizada durante o minicurso.
+2. [Exemplos de Código](./examples) - Exemplos práticos usados durante a aula para reforçar os conceitos.
 
 ## O que é Docker?
 
@@ -35,7 +35,7 @@ Para seguir este minicurso, é recomendável ter:
 ## Estrutura do Projeto
 
 - `exemplos/`: Contém exemplos práticos abordados durante o curso.
-- `slides.pdf`: Apresentação usada durante a aula.
+- `Docker-Sitec-2024.pdf`: Apresentação usada durante a aula.
 
 ---
 
