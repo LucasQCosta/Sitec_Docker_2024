@@ -51,6 +51,24 @@ Para parar a execução do contêiner, pressione `Ctrl + C` no terminal onde o c
 
 ## Recursos Adicionais
 
-Para mais informações sobre o Docker, consulte a [documentação oficial do Docker](https://docs.docker.com/). Para mais detalhes sobre a utilização do Hugging Face, consulte a [documentação oficial do Hugging Face](https://huggingface.co/docs/).
+Para mais detalhes sobre a utilização do Hugging Face, consulte a [documentação oficial do Hugging Face](https://huggingface.co/docs/).
 
+# Outra possibilidade
+
+Para isso você vai gerar o modelo na sua máquina. Então, você precisa ter `git` instalado na sua máquina para copiar esse repositório:
+
+```
+docker run -it -p 7860:7860 --platform=linux/amd
+```
+
+Então, acesse a pasta clona e rode esse comando:
+```
+docker buildx  build --platform=linux/amd64  -t lo
+```
+
+E então, execute o container usando esse comando:
+
+```
+docker run -it -p 7860:7860 --platform=linux/
+```
 ---
